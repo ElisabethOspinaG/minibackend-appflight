@@ -1,19 +1,48 @@
 {
     "paymentMethods": [
       {
-        "credit": {
-          "imageAmex": "../Assets/amex.svg",
-          "imagePaypal": "../Assets/paypal.svg",
-          "imageInvex": "../Assets/invex.svg",
-          "imageMaster": "../Assets/mastercard.svg",
-          "imageVisa": "../Assets/visa.svg"
-        },
-        "cash": {
-          "imageOxxo": "../Assets/oxxo.svg",
-          "imageSeven": "../Assets/seven.svg",
-          "imageWalmart": "../Assets/walmart.svg",
-          "imageFamAhorro": "../Assets/famahorro.svg"
-        }
+        "id": 1,
+        "credit": [
+         { 
+          "imagenIcon": "../Assets/amex.svg",
+          "nameImg": "amex"
+         },
+         { 
+          "imagenIcon": "../Assets/paypal.svg",
+          "nameImg": "paypal"
+         },
+         { 
+          "imagenIcon": "../Assets/invex.svg",
+          "nameImg": "invex"
+         },
+         { 
+          "imagenIcon": "../Assets/mastercard.svg",
+          "nameImg": "master"
+         },
+         { 
+          "imagenIcon": "../Assets/visa.svg",
+          "nameImg": "amex"
+         }
+        
+      ],
+        "cash": [
+          { 
+            "imagenIcon": "../Assets/oxxo.svg",
+            "nameImg": "Oxxo"
+           },
+          { 
+            "imagenIcon": "../Assets/seven.svg",
+            "nameImg": "seven"
+           },
+           { 
+            "imagenIcon": "../Assets/walmart.svg",
+            "nameImg": "walmart"
+           },
+           { 
+            "imagenIcon": "../Assets/famahorro.svg",
+            "nameImg": "famAhorro"
+           }
+        ]
       }
     ],
     "services": [
@@ -60,7 +89,7 @@
     "Baggage": [
       {
         "baggageType": "1 personal item",
-        "priceBaggage": "$548 MXN"
+        "priceLuggage": "$548 MXN"
       },
       {
         "baggageType": "Hand baggage",
